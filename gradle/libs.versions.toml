@@ -1,0 +1,24 @@
+[versions]
+
+compose-activity = "1.9.2"
+splash = "1.0.1"
+
+kotlin = "2.0.20"
+android = "8.6.1"
+compose = "1.6.11"
+
+sdk-min = "24"
+sdk-compile = "34"
+sdk-target = "34"
+
+[libraries]
+
+compose-activity = { group = "androidx.activity", name = "activity-compose", version.ref = "compose-activity" }
+splash = { group = "androidx.core", name = "core-splashscreen", version.ref = "splash"}
+
+[plugins]
+
+kotlin = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+android = { id = "com.android.application", version.ref = "android" }
+compose = { id = "org.jetbrains.compose", version.ref = "compose" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
