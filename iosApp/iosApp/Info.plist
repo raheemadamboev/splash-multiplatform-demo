@@ -28,7 +28,9 @@
 		<false/>
 	</dict>
 	<key>UILaunchScreen</key>
-	<dict/>
+    <dict/>
+    <key>UILaunchStoryboardName</key>
+    <string>SplashScreen.storyboard</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
